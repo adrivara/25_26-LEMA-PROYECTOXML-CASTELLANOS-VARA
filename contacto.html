@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Página de contacto (formulario) — MediaPark
+-->
+<html lang="es">
+
+<head>
+	<title>Contacto — MediaPark</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="index.html" class="logo">MediaPark</a>
+			<nav id="nav">
+				<a href="index.html">Página principal</a>
+				<a href="catalogo_tabla.html">Catálogo (tabla)</a>
+				<a href="catalogo_categorias.html">Catálogo (categorías)</a>
+				<a href="#">Contacto</a>
+			</nav>
+		</div>
+	</header>
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- Main -->
+	<section id="main">
+		<div class="inner">
+			<header class="major special">
+				<h1>Contacto</h1>
+				<p>¿Dudas, presupuesto o soporte? Escríbenos y te respondemos lo antes posible.</p>
+			</header>
+
+			<div class="row">
+				<div class="6u 12u$(small)">
+					<h3>Datos de atención</h3>
+					<ul>
+						<li><b>Teléfono:</b> 912 345 678</li>
+						<li><b>Email:</b> contacto@mediapark.com</li>
+						<li><b>Horario:</b> Lunes – Viernes (09:00 – 20:00)</li>
+						<li><b>Dirección:</b> Avenida del Comercio 45, Madrid (28010)</li>
+					</ul>
+				</div>
+
+				<div class="6u 12u$(small)">
+					<h3>Formulario</h3>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Nombre</label>
+							<input type="text" name="name" id="name" placeholder="Tu nombre" required />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="email" name="email" id="email" placeholder="tu@email.com" required />
+						</div>
+						<div class="field">
+							<label for="asunto">Asunto</label>
+							<input type="text" name="asunto" id="asunto" placeholder="Ej.: Consulta sobre un producto" required />
+						</div>
+						<div class="field">
+							<label for="tipo">Tipo de consulta</label>
+							<div class="select-wrapper">
+								<select name="tipo" id="tipo">
+									<option value="catalogo">Catálogo</option>
+									<option value="pedido">Pedido</option>
+									<option value="soporte">Soporte técnico</option>
+									<option value="otros">Otros</option>
+								</select>
+							</div>
+						</div>
+						<div class="field">
+							<label for="message">Mensaje</label>
+							<textarea name="message" id="message" rows="6" placeholder="Cuéntanos qué necesitas" required></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Enviar" class="alt" /></li>
+							<li><input type="reset" value="Limpiar" /></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="copyright">
+				&copy; 2026 Josué Castellanos y Adrián Vara
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+				</ul>
+				<span>MediaPark — Avenida del Comercio 45 (Madrid, 28010) · 912 345 678 · contacto@mediapark.com</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
